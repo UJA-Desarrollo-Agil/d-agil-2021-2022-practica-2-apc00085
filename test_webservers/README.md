@@ -23,15 +23,18 @@ El objetivo es crear una aventura de libre elección donde un personaje sale de 
 
 ## 3. Tablero en Trello<a name="trello"></a>
 
-### 3. 1. Enlace al tablero en Trello:<a name="enlace-trello"></a> <b></b>
+### 3. 1. Enlace al tablero en Trello:<a name="enlace-trello"></a><b>https://trello.com/b/71TrdGhd/pr%C3%A1ctica-2</b>
 
 
 ### 3.2. Capturas de pantalla del tablero:<a name="capturas-trello"></a>
 A continuación diferentes imagenes del avance del Tablero Trtello
 
-<img src="https://github.com/UJA-Desarrollo-Agil/</img>
+<img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/games/media/img/trello/inicio.PNG</img>
 
-<img src="https://github.com/UJA-Desarrollo-Agil/</img>
+<img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/games/media/img/trello/medio.PNG</img>
+
+<img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/games/media/img/trello/final.PNG</img>
+
 
 ## 4. Capturas de pantalla de Telegram<a name="capturas-telegram"></a>
 A continuación se podrán observar diferentes imágenes de como Telegram nos avisa de los cambios que realizamos
