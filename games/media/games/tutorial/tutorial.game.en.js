@@ -50,19 +50,26 @@ undum.game.situations = {
                                  can click to perform the action again.</p>",
                 'dormir': "<p>En tu cabeza parecia buena idea... pero al final te duermes, no habías hecho la maleta aún, te tienes que duchar," +
                     "vestir, asear.... total al final salís casi a las 17:00... prácticamente has periddo el dia en Madrid y llegas muy muy justo al partido," +
-                    "como consecuencia de salir tarde puede ocurrir lo siguiente al llegar al estadio : <a href='vacio'><i>APARCAS " +
-                    " FACIL</i></a> o... <a href='aparcar'><i> REZAS POR NO TERMINAR EN LA M50</i></a></p>",
+                    "como consecuencia de salir tarde puede ocurrir lo siguiente al llegar al estadio : " +
+                    "<p class='transient'><a href='vacio'><i>APARCAS " +
+                    " FACIL</i></a> o... <a href='asszzz'><i> REZAS POR NO TERMINAR EN LA M50</i></a></p></p>",
             }
         }
     ),
 
 
-    "vacio": new undum.SimpleSituation(
-        "<p>JA JA JA igual la próxima vez en uno de tus sueños.... te toca... <a href='aparcar'>??</p>"
+    vacio: new undum.SimpleSituation(
+        "<h1>ESTARÁ VACIO¿?</h1>\
+        <img src='media/img/partido/lleno.jpg' class='float_right'>\
+        <p>JA JA JA igual la próxima vez en uno de tus sueños.... te toca... <a href='asszzz'>¿DAR VUELTAS?</a></p>"
     ),
-    "aparcar": new undum.SimpleSituation(
-        "<p><i>EFECTIVAMENTE TERMINAS DANDO VUELTAS</i>>Al final después de 20 minutos dando vueltas encuentras un sitio a 3Km del estadio... te toca <a>!CORRER!</a>></p>"
+
+    aaszzz: new undum.SimpleSituation(
+        "<h1>APARCARAS¿?</h1>\
+        <img src='media/img/partido/corre.jpg' class='float_right'>\
+        <p>EFECTIVAMENTE TERMINAS DANDO VUELTAS Al final después de 20 minutos dando vueltas encuentras un sitio a 3Km del estadio... te toca <i>!CORRER!</i></p>"
     ),
+
 
     links: new undum.SimpleSituation(
         "<p>Between each chunk of new text, Undum inserts a discreet line\
