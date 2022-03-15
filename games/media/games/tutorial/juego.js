@@ -29,7 +29,7 @@ undum.game.slideUpSpeed = 500
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
     start: new undum.SimpleSituation(
-        "<h1>DÍA DE PARTIDO</h1>\
+        "<h1>Starting Out with Undum</h1>\
         <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
         <p>Welcome to the Undum tutorial. Undum is a tool for writing\
         hypertext interactive fiction. It has some unique features\
@@ -335,7 +335,7 @@ undum.game.situations = {
         of the permanent record of the game, then write it in text.</p>\
         \
         <p>Let's <a href='hub'>return to the topic list.</a></p>"
-        ),
+    ),
     // Again, we'll retrieve the text we want from the HTML file.
     "saving": new undum.Situation({
         enter: function(character, system, from) {
