@@ -133,7 +133,7 @@ undum.game.situations = {
                     y sales corriendo, 'sin olvidor que estabas haciendo' para <a href='finpartido'>seguir viendo</a> el partido</p>",
                 'verf':
                     "<h1 class='transient'>MUY MUY MALA IDEA</h1>\
-                    <p>En tu cabeza sonaba bien... pero al final no tienes más remedio que ir al<a href='baoxx'> WC </a> y lo peor de todo es que te vas en el min 85...</p>",
+                    <p>En tu cabeza sonaba bien... pero al final no tienes más remedio que ir al<a href='./baoxx'> WC </a> y lo peor de todo es que te vas en el min 85...</p>",
             }
         }
     ),
