@@ -31,9 +31,9 @@ A continuación diferentes imagenes del avance del Tablero Trtello
 
 <img src="https://raw.githubusercontent.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/developer/games/media/img/inicio.jpg"></img>
 
-<img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/games/media/img/medio.jpg"></img>
+<img src="https://raw.githubusercontent.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/developer/games/media/img/medio.jpg"></img>
 
-<img src="https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/games/media/img/final.jpg"></img>
+<img src="https://raw.githubusercontent.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/developer/games/media/img/final.jpg"></img>
 
 
 ## 4. Capturas de pantalla de Telegram<a name="capturas-telegram"></a>
