@@ -30,76 +30,40 @@ undum.game.slideUpSpeed = 500
 undum.game.situations = {
     start: new undum.SimpleSituation(
         "<h1>DÍA DE PARTIDO</h1>\
-        <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
-        <p>Welcome to the Undum tutorial. Undum is a tool for writing\
-        hypertext interactive fiction. It has some unique features\
-        and a visual design that encourages narrative games.</p>\
+        <img src='media/img/partido/inipartido.jpg' class='float_right'>\
+        <p>Es hoy cuando por fin vas a poder ver un partido de tu equipo favorito, y no vas a ir solo te acompaña tu novia\
+        la cual no le gusta el futbol pero va por ti(valora eso), os habeis pues de acuerdo para que quien conduzca\
+        sea ella.</p>\
         \
-        <p>Hypertext interactive fiction is the digital equivalent of the\
-        Choose Your Own Adventure (CYOA) books that were popular in the\
-        1980s. The story is told in chunks, and you select from a range\
-        of options to move it forward. Unlike the book form, however, the\
-        digital form gives you far more flexibility to tell rich stories\
-        and introduce more interesting game elements.</p>\
+        <p>El partido es a las 21:00H pero antes ireis al hotel saldréis a dar una vuelta y despues 'con tiempo' valorareis cual es la \
+         mejor forma para ir.</br>\
+         Teneis que quedar a una hora para salir de viaje y tienes dos opciones: \</p>\
+         \
+        <p class='sticky'><a href='./madrugar'>Madrugar y quedar a las 8:00 a.m</a></p>\
         \
-        <p class='transient'>Click <a href='hub'>this link to\
-        continue...</a></p>"
-    ),
-
-    // NB: The 'hub' situation which is the main list of topics, is
-    // defined wholly in the HTML file, and doesn't have an entry in
-    // the game.situations dictionary in this file.
-
-    // For variety, here we define a situation using the top-level
-    // Situation type. This is a neat approach to generate text by
-    // looking it up in the HTML document. For static text that makes
-    // more sense than writing it longhand.
-    situations: new undum.Situation({
-        enter: function(character, system, from) {
-            system.write($("#s_situations").html());
-        },
-        tags: ["topic"],
-        optionText: "What Undum Games are Made Of",
-        displayOrder: 1
-    }),
-    todo: new undum.SimpleSituation(
-        "<p>Two things can happen in a situation. The character either\
-        <a href='links'>leaves</a> the situation and enters another one, or\
-        they carry out some <a href='./do-something'>action</a>. Actions may\
-        perform some processing, they may display some results, but\
-        ultimately they put the character back into the same situation\
-        again.</p>\
-        \
-        <p>When you are designing your game, use situations to reflect a\
-        change in what the character can do. So you would change situation if\
-        the character pulls a lever to open a trapdoor, for example. Actions\
-        are intended for situations where the character can examine things\
-        more closely, or maybe top up their magic by drinking a potion.\
-        Things that don't affect the state of the world around them.</p>\
-        \
-        <p>Situations generate content when they are <em>enter</em>ed,\
-        <em>exit</em>ed, and when they receive an <em>act</em>ion (the\
-        italicised words are the names of the three methods that do this).\
-        You can write code to generate content in any way you like, so the\
-        content that is displayed can be totally dynamic: taking into\
-        account the current state of the character.\
-        Content is just plain HTML, so you use regular HTML tags to make\
-        things <strong>bold</strong> or <em>italic</em>, or to include\
-        images. This gives you a lot of flexibility. For example, since Undum\
-        targets HTML5 browsers, you could use the <em>audio</em> or\
-        <em>video</em> tags to include rich media.</p>\
-        \
-        <p class='transient'>Make sure you've carried out the action above,\
-        then <a href='hub'>return to the topic list</a>.</p>",
+        \<p class='sticky'><a href='./dormir'>Dormir y quedar a las 14:00 a.m</a></p>",
         {
             actions: {
-                'do-something': "<p>You carried out the action, well done.\
+                'madrugar': "<p>You carried out the action, well done.\
                                  You'll notice that the links for this\
                                  situation are still active. This means you\
-                                 can click to perform the action again.</p>"
+                                 can click to perform the action again.</p>",
+                'dormir': "<p>En tu cabeza parecia buena idea... pero al final te duermes, no habías hecho la maleta aún, te tienes que duchar," +
+                    "vestir, asear.... total al final salís casi a las 17:00... prácticamente has periddo el dia en Madrid y llegas muy muy justo al partido," +
+                    "como consecuencia de salir tarde puede ocurrir lo siguiente al llegar al estadio : <a href='vacio'><i>APARCAS " +
+                    " FACIL</i></a> o... <a href='aparcar'><i> REZAS POR NO TERMINAR EN LA M50</i></a></p>",
             }
         }
     ),
+
+
+    "vacio": new undum.SimpleSituation(
+        "<p>JA JA JA igual la próxima vez en uno de tus sueños.... te toca... <a href='aparcar'>??</p>"
+    ),
+    "aparcar": new undum.SimpleSituation(
+        "<p><i>EFECTIVAMENTE TERMINAS DANDO VUELTAS</i>>Al final después de 20 minutos dando vueltas encuentras un sitio a 3Km del estadio... te toca <a>!CORRER!</a>></p>"
+    ),
+
     links: new undum.SimpleSituation(
         "<p>Between each chunk of new text, Undum inserts a discreet line\
         in the margin. This allows you to see at a glance everything that\
