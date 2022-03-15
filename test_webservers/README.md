@@ -39,7 +39,9 @@ A continuación diferentes imagenes del avance del Tablero Trtello
 ## 4. Capturas de pantalla de Telegram<a name="capturas-telegram"></a>
 A continuación se podrán observar diferentes imágenes de como Telegram nos avisa de los cambios que realizamos
 
-<img src="https://github.com/UJA-Desarrollo-Agil/</img>
+<img src="https://raw.githubusercontent.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/developer/games/media/img/t1.JPG"></img>
 
-<img src="https://github.com/UJA-Desarrollo-Agil/</img>
+<img src="https://raw.githubusercontent.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/developer/games/media/img/t2.JPG"></img>
+
+<img src="https://raw.githubusercontent.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-2-apc00085/developer/games/media/img/t3.JPG"></img>
 
