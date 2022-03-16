@@ -62,7 +62,7 @@ undum.game.situations = {
         <p>JA JA JA igual la próxima vez en uno de tus sueños.... te toca... <a href='asszzz'>¿DAR VUELTAS?</a></p>"
     ),
 
-    aaszzz: new undum.SimpleSituation(
+    asszzz: new undum.SimpleSituation(
         "<h1>APARCARAS¿?</h1>\
         <img src='media/img/partido/corre.jpg' class='float_right'>\
         <p>EFECTIVAMENTE TERMINAS DANDO VUELTAS Al final después de 20 minutos dando vueltas encuentras un sitio a 3Km del estadio... te toca <i>!CORRER!</i> será mejor que empezemos\
